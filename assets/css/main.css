@@ -1001,6 +1001,10 @@
 
 }
 
+.hide {
+    display: none;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -1260,10 +1264,11 @@
 .home-product-item__img{
     padding-top: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
+    transition: all ease-in 0.3s;
 }
 
 .home-product-item__name{
